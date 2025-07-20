@@ -56,7 +56,7 @@ function App() {
     const userID = 'hn7wfbbzlMFM3ptCn';
 
     const templateParams = {
-      to_email: 'abhisheknanda94@gmail.com',
+      to_email: 'bharat@arfinance.info',
       from_name: formData.name,
       phone: formData.phone,
       email: formData.email,
@@ -66,9 +66,10 @@ function App() {
     };
 
     const userParams = {
-      from_name: formData.name,
+      from_name: 'AR Finance',
       to_email: formData.email,
-      // message: `Hi ${formData.name},\n\nThank you for reaching out to AR Finance. We’ve received your loan inquiry and our team will get in touch with you shortly.\n\nRegards,\nTeam AR Finance`,
+      from_email: 'support@arfinance.info',
+      message: `Hi ${formData.name},\n\nThank you for reaching out to AR Finance. We’ve received your loan inquiry and our team will get in touch with you shortly.\n\nRegards,\nTeam AR Finance`
     };
 
     try {

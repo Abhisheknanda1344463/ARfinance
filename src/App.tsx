@@ -50,7 +50,7 @@ function App() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     // EmailJS config
-    const serviceID = 'service_sic5nxq';
+    const serviceID = 'service_emnilr3';
     const admin_templateID = 'template_5f4hhzd';
     const client_templateID = 'template_h7sl6wz';
     const userID = 'hn7wfbbzlMFM3ptCn';
